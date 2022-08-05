@@ -3,7 +3,7 @@ tasks:
   - name: Steedos
     command: |
       cd steedos-enterprise
-      docker-compose up
+      docker-compose up -d
 
 # List the ports to expose. Learn more https://www.gitpod.io/docs/config-ports/
 ports:
